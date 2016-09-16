@@ -8,6 +8,8 @@ public class BOException extends Exception {
 
 	public BOException(SQLException e) {
 		super(e);
+		
+		System.out.print("Ubacena linija koda u lokalnom repou, pa pushovana na server");
 	}
 
 	
