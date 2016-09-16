@@ -59,5 +59,9 @@ public class OrderBOImpl implements OrderBO {
 	public void setDao(OrderDAO dao) {
 		this.dao = dao;
 	}
+	
+	public void someShittyMethod(){
+		System.out.println("New method added");
+	}
 
 }
