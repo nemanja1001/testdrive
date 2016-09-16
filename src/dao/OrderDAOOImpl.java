@@ -14,19 +14,19 @@ public class OrderDAOOImpl implements OrderDAO {
 
 	@Override
 	public Order read(int id) throws SQLException {
-		// TODO Auto-generated method stub
+		System.out.println("Inside OrderDAOImpl.read method");
 		return null;
 	}
 
 	@Override
 	public int update(Order order) throws SQLException {
-		// TODO Auto-generated method stub
+		System.out.println("Inside OrderDAOImpl.update method");
 		return 0;
 	}
 
 	@Override
 	public int delete(int id) throws SQLException {
-		// TODO Auto-generated method stub
+		System.out.println("Inside OrderDAOImpl.delete method");
 		return 0;
 	}
 
