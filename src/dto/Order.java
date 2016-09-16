@@ -21,4 +21,10 @@ public class Order {
 	public void setId(int id) {
 		this.id = id;
 	}
+	public int getMyId() {
+		return myId;
+	}
+	public void setMyId(int myId) {
+		this.myId = myId;
+	}
 }
