@@ -4,6 +4,9 @@ public class Order {
 
 	private int id;
 	private String status;
+	private static int Id = 0;
+	private int myId;
+	
 	
 	
 	public String getStatus() {
