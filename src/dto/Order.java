@@ -7,6 +7,8 @@ public class Order {
 	private static int Id = 0;
 	private int myId;
 	
+	private String myName = "Nemanja";
+	
 	
 	
 	public String getStatus() {
